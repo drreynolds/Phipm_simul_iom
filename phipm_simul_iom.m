@@ -12,7 +12,10 @@ function [wout, m, stats] = phipm_simul_iom(t, A, u, tol, m, iom)
 % The size of the Krylov subspace is changed dynamically during the
 % integration. The Krylov subspace is computed using the Arnoldi process.
 %
-% This file is a modified version of phipm_iom.m.
+% This file is a modified version of phipm_iom.m, developed by
+% S. Gadreault and J.A. Pudykiewicz (JCP 2016).
+% Similarly, phipm_iom.m is a modified version of phipm.m,
+% developed by J. Niesen and W.M. Wright (ACM TOMS 2012).
 %
 % Modifications performed by Daniel R. Reynolds and Vu Luan, 
 % Mathematics Department, Southern Methodist University 
